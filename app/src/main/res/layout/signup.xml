@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/usernameSignup"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:hint="Tài Khoản"
+        app:layout_constraintBottom_toTopOf="@+id/passwordSignup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordSignup"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="276dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="Mật Khẩu"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/repasswordSignup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <EditText
+        android:id="@+id/repasswordSignup"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="428dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:hint="Nhập Lại Mật Khẩu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="576dp"
+        android:text="Đăng Ký"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="576dp"
+        android:text="Đăng Nhập"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

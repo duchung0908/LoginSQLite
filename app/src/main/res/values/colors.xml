@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_color">#6dd5ed</color>
+    <color name="transparent">#00000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#4EDAF3</color>
+    <color name="secondary">#00B9F5</color>
+    <color name="secondary_blue">#322FFF</color>
+    <color name="gradient_blue">#1517FF</color>
+    <color name="secondary_pink">#F40980</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="default_statistic_banner_indicator">#80FFFFFF</color>
+    <color name="blue_6">#1890FF</color>
+    <color name="bottom_sheet_destruct_button_label">#FF4D4F</color>
+    <color name="bottom_sheet_overlay">#60000000</color>
+
+    <!--Grey-->
+    <color name="grey9">#262626</color>
+    <color name="grey8">#595959</color>
+    <color name="grey7">#8C8C8C</color>
+    <color name="grey6">#BFBFBF</color>
+    <color name="grey5">#D9D9D9</color>
+    <color name="grey4">#E8E8E8</color>
+    <color name="grey3">#F5F5F5</color>
+    <color name="grey2">#FAFAFA</color>
+    <color name="grey1">#FFFFFF</color>
+
+    <!--Red6-->
+    <color name="red6">#F5222D</color>
+
+    <!--Green-->
+    <color name="green6">#2EB553</color>
+
+    <!--Orange-->
+    <color name="orange6">#FA8C16</color>
+
+</resources>
